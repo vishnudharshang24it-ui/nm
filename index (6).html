@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VISHNUDHARSHAN G </title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">VISHNUDHARSHAN G</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>VISHNUDHARSHAN G</span></h1>
+      <p>Pursuing BSc Information Technology</p>
+      <a href="#works" class="btn">View My Works</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="profile.jpg" alt="VISHNUDHARSHAN G" />
+      <div>
+        <p>
+          I am a dedicated student pursuing BSc Information Technology with skills in programming, web development, and database management. I enjoy designing interactive, responsive websites and exploring new technologies.
+        </p>
+        <h3>Skills</h3>
+        <ul class="skills">
+          <li>HTML5 & CSS3</li>
+          <li>JavaScript & jQuery</li>
+          <li>Python Programming</li>
+          <li>SQL & Database Management</li>
+          <li>Object-Oriented Programming</li>
+          <li>Basic Networking Concepts</li>
+          <li>Software Development Life Cycle</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Works Section -->
+  <section id="works" class="projects">
+    <h2>My Works</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Responsive Portfolio Website</h3>
+        <p>A responsive site using HTML, CSS, and JavaScript to showcase skills and projects.</p>
+      </div>
+      <div class="project-card">
+        <h3>Quiz App</h3>
+        <p>JavaScript-based quiz application with multiple choice questions and score tracking.</p>
+      </div>
+      <div class="project-card">
+        <h3>Library Management System</h3>
+        <p>Python application with database integration to manage library books and users.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form" novalidate>
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 VISHNUDHARSHAN G| All rights reserved</p>
+  </footer>
+</body>
+</html>
